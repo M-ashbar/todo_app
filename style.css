@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b5c6c9;
+    background-image: url('https://plus.unsplash.com/premium_photo-1681487870238-4a2dfddc6bcb?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover; /* Cover the entire body */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.input-container {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center items in the container */
+    margin-bottom: 20px; /* Space below the input-container */
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px; /* Space between input and button */
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #111111; /* Changed button color to green */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Added border-radius for rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #058feb; /* Darker shade for hover */
+}
+
+.todosContainer {
+    margin-top: 20px;
+    width: 100%; /* Full width for todos container */
+    max-width: 400px; /* Limit the max width */
+}
+
+.todo {
+    background-color: white;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
